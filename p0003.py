@@ -6,7 +6,7 @@ import eulerlib
 # Now if we take the number n and repeatedly divide out its smallest factor (which must also be prime), then the last
 # factor that we divide out must be the largest prime factor of n. For reference, 600851475143 = 71 * 839 * 1471 * 6857.
 def compute():
-	n = 600851475143
+	n = 60085147985143
 	while True:
 		p = smallest_prime_factor(n)
 		if p < n:
