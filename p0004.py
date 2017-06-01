@@ -1,4 +1,8 @@
-# import eulerlib
+# 
+# date 01/06/17
+# @author Mark Rogan
+# 
+
 
 def checkProduct(x,y):
   product = x*y
@@ -20,5 +24,4 @@ def getLargestPalindrome(startNum, endNum):
 
 
 if __name__ == "__main__":
-  # checkProduct(23,33)
   print(getLargestPalindrome(100,999))
