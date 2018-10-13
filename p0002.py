@@ -1,12 +1,12 @@
 def main():
-    a=1
-    b=2
-    fibNum=0
-    sum=0
+    a = 1
+    b = 2
+    # fibNum = 0
+    sum = 0
     while(a < 4000000):
-        if(a%2 == 0):
-            sum+=a
-        a, b = b, a+b
+        if(a % 2 == 0):
+            sum += a
+        a, b = b, a + b
     print sum
 
 
